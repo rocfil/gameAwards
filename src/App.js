@@ -44,7 +44,7 @@ export default function App() {
       </button>
       {isOpen && (
         <div className="steps">
-          <h3 className="message">The Game of the Year Award</h3>
+          <h3 className="message">The Game of the Year Awards</h3>
           <div className="numbers">
             <div className={year == 1 ? "active" : ""}>2019</div>
             <div className={year == 2 ? "active" : ""}>2020</div>
